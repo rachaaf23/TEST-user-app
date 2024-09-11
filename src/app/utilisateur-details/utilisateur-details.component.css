@@ -1,0 +1,41 @@
+/* Carte des détails de l'utilisateur */
+.custom-card {
+    background-color: #ffffff; /* Fond blanc pour la carte */
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+  }
+  
+  /* Titre de la carte */
+  .card-title {
+    color: #003d7a; /* Couleur du texte pour le titre */
+    font-size: 1.5rem;
+    font-weight: bold;
+    background: linear-gradient(to right, #00c8ff, #001f3f); /* Dégradé pour le fond du titre */
+    color: white;
+    padding: 10px;
+    border-radius: 5px;
+  }
+  
+  /* Détails de l'utilisateur */
+  .user-details {
+    margin-top: 20px;
+  }
+  
+  /* Item de détail */
+  .detail-item {
+    margin-bottom: 15px;
+  }
+  
+  .detail-label {
+    font-weight: bold;
+    color: #007bff; /* Couleur du texte des labels */
+  }
+  
+  .detail-value {
+    font-size: 1rem;
+    color: #333333; /* Couleur du texte des valeurs */
+    display: block;
+    margin-top: 5px;
+  }
+  

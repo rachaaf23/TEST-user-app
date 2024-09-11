@@ -1,0 +1,30 @@
+<nav class="navbar navbar-expand-sm bg-dark navbar-dark shadow-sm mb-4">
+  <div class="container-fluid">
+    <a class="navbar-brand" href="#">Gestion Utilisateurs</a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNav">
+      <ul class="navbar-nav ms-auto">
+        <li class="nav-item">
+          <a routerLink="/utilisateur" routerLinkActive="active" class="nav-link">Liste des Utilisateurs</a>
+        </li>
+        <li class="nav-item">
+          <a routerLink="/create-utilisateur" routerLinkActive="active" class="nav-link">Ajouter utilisateur</a>
+        </li>
+      </ul>
+    </div>
+  </div>
+</nav>
+
+<h1 class="text-center my-4">{{ title }}</h1>
+
+<div class="container">
+  <router-outlet></router-outlet>
+</div>
+
+<footer class="footer bg-dark text-white py-3 mt-4">
+  <div class="container text-center">
+    <span>All Rights Reserved 2024</span>
+  </div>
+</footer>

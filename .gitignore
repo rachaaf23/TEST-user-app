@@ -31,3 +31,5 @@ build/
 
 ### VS Code ###
 .vscode/
+
+# Ajoutez ici toute autre entrée provenant de la version distante ou locale que vous souhaitez conserver.

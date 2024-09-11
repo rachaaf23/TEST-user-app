@@ -1,0 +1,52 @@
+/* Carte du formulaire */
+.custom-card {
+    background-color: #ffffff; /* Fond blanc pour la carte */
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+  }
+  
+  /* Titre de la carte */
+  .card-title {
+    color: #003d7a; /* Couleur du texte pour le titre */
+    font-size: 1.5rem;
+    font-weight: bold;
+    background: linear-gradient(to right, #00c8ff, #001f3f); /* Dégradé pour le fond du titre */
+    color: white;
+    padding: 10px;
+    border-radius: 5px;
+  }
+  
+  /* Style des champs de formulaire */
+  .form-control-custom {
+    border-radius: 4px;
+    border: 1px solid #b0bec5; /* Bordure gris clair */
+    padding: 10px;
+    transition: border-color 0.3s ease;
+  }
+  
+  .form-control-custom:focus {
+    border-color: #007bff; /* Couleur de bordure lors du focus */
+    box-shadow: 0 0 0 0.2rem rgba(38, 143, 255, 0.25); /* Ombre pour l'effet focus */
+  }
+  
+  .form-label {
+    font-weight: bold;
+    color: #007bff; /* Couleur du texte des labels */
+  }
+  
+  /* Bouton de soumission */
+  .btn-submit {
+    background-color: #007bff; /* Couleur du bouton */
+    color: white;
+    border: none;
+    padding: 10px;
+    border-radius: 5px;
+    font-size: 1rem;
+    transition: background-color 0.3s ease;
+  }
+  
+  .btn-submit:hover {
+    background-color: #0056b3; /* Couleur du bouton au survol */
+  }
+  
