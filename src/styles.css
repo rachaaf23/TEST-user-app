@@ -1,1 +1,65 @@
-/* You can add global styles to this file, and also import other style files */
+/* Fond de la page */
+body {
+  background: linear-gradient(to bottom, #f0f8ff, #e3f2fd); /* Dégradé doux entre bleu clair et blanc cassé */
+  color: #333333; /* Couleur de texte plus sombre pour une meilleure lisibilité */
+  font-family: 'Arial', sans-serif; /* Police agréable et moderne */
+  margin: 0;
+  padding: 0;
+}
+
+/* Barre de navigation */
+.navbar {
+  border-bottom: 2px solid #007bff;
+  background-color: #e3f2fd; /* Fond clair pour correspondre au thème */
+  padding: 10px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.navbar-brand {
+  font-weight: bold;
+  color: #0056b3 !important; /* Couleur bleu plus foncée */
+  font-size: 1.2rem;
+}
+
+.nav-link {
+  color: #0056b3 !important; /* Liens bleus foncés pour correspondre au thème clair */
+  margin-right: 15px;
+  transition: color 0.3s ease;
+}
+
+.nav-link:hover {
+  color: #003d7a !important; /* Changement de couleur au survol */
+}
+
+.nav-link.active {
+  font-weight: bold;
+  color: #ffffff !important;
+  background-color: #007bff; /* Arrière-plan bleu pour indiquer l'élément actif */
+  border-radius: 4px;
+  padding: 5px 10px;
+}
+
+/* Pied de page */
+.footer {
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  border-top: 2px solid #007bff;
+  background-color: #f8f9fa; /* Fond clair pour s'harmoniser avec la barre de navigation */
+  height: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  box-shadow: 0 -2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.footer span {
+  font-size: 0.9rem;
+  color: #5a5a5a; /* Couleur de texte légèrement plus foncée pour le contraste */
+  margin-left: 10px;
+}
+
+/* Amélioration des transitions */
+.navbar, .footer {
+  transition: all 0.3s ease;
+}

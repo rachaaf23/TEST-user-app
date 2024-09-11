@@ -1,0 +1,43 @@
+<div class="container mt-5">
+    <div class="card custom-card">
+      <h1 class="text-center mb-4 card-title">Modifier utilisateur</h1>
+      <form (ngSubmit)="onSubmit()">
+        <div class="form-group mb-3">
+          <label for="firstName" class="form-label">First Name</label>
+          <input type="text" class="form-control form-control-custom" id="firstName"
+                 [(ngModel)]="utilisateur.firstName" name="firstName" placeholder="Enter your first name">
+        </div>
+  
+        <div class="form-group mb-3">
+          <label for="lastName" class="form-label">Last Name</label>
+          <input type="text" class="form-control form-control-custom" id="lastName"
+                 [(ngModel)]="utilisateur.lastName" name="lastName" placeholder="Enter your last name">
+        </div>
+  
+        <div class="form-group mb-3">
+          <label for="emailId" class="form-label">Email Id</label>
+          <input type="email" class="form-control form-control-custom" id="emailId"
+                 [(ngModel)]="utilisateur.emailId" name="emailId" placeholder="Enter your email address">
+        </div>
+  
+        <div class="form-group mb-3">
+          <label for="password" class="form-label">Password</label>
+          <input type="password" class="form-control form-control-custom" id="password"
+                 [(ngModel)]="utilisateur.password" name="password" placeholder="Enter your password">
+        </div>
+  
+        <div class="form-group mb-3">
+          <label for="role" class="form-label">Role</label>
+          <select class="form-control form-control-custom" id="role" name="role" [(ngModel)]="utilisateur.Role">
+            <option value="ROLE_USER">ROLE_USER</option>
+            <option value="ROLE_SUPERUSER">ROLE_SUPERUSER</option>
+            <option value="ROLE_ADMIN">ROLE_ADMIN</option>
+            <option value="ROLE_NEW">ROLE_NEW</option>
+          </select>
+        </div>
+  
+        <button class="btn btn-submit" type="submit">Enregistrer</button>
+      </form>
+    </div>
+  </div>
+  

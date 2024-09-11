@@ -1,13 +1,13 @@
 import { Component } from '@angular/core';
-import { RouterOutlet } from '@angular/router';
-
+import { RouterLink, RouterLinkActive, RouterOutlet } from '@angular/router';
+import { UtilisateurListComponent } from "./utilisateur-list/utilisateur-list.component";
 @Component({
   selector: 'app-root',
   standalone: true,
-  imports: [RouterOutlet],
+  imports: [RouterOutlet, UtilisateurListComponent ,RouterOutlet, RouterLink, RouterLinkActive],
   templateUrl: './app.component.html',
-  styleUrl: './app.component.css'
+  styleUrls: ['./app.component.css'] // Ajout du "s" ici
 })
 export class AppComponent {
-  title = 'frontEnd-angular';
+  title = 'CM Consulting ';
 }
